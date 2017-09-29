@@ -1,0 +1,36 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "Comparte tus fotos estudiando en Platzi con el resto de la comunidad",
+  "main": "server.js",
+  "keywords": [
+    "platzi",
+    "javascript",
+    "curso-definitivo",
+    "platzigram"
+  ],
+  "author": "platzi",
+  "dependencies": {
+    "empty-element": "^1.0.0",
+    "express": "^4.13.4",
+    "materialize-css": "^0.97.6",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-alpha6",
+    "title": "^1.0.0",
+    "yo-yo": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp watch & node server.js"
+  }
+}
